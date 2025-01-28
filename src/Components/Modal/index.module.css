@@ -1,0 +1,25 @@
+.textAnimate{
+    animation-name: step2;
+    animation-duration: 9s;
+    animation-timing-function: steps(55);
+    animation-iteration-count:infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 2px;
+    border-right: 2px solid red;
+}
+
+@keyframes step2 {
+    0%{
+        width:0ch;
+    }
+    40%{
+        width: 57ch;
+    }
+    60%{
+        width:57ch;
+    }
+    100%{
+        width:0ch;
+    }
+}

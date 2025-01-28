@@ -1,0 +1,45 @@
+.textAnimate{
+    animation-name: step;
+    animation-duration: 8s;
+    animation-timing-function: steps(25);
+    animation-iteration-count:infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 2px;
+    border-right: 2px solid #2896df;
+}
+@keyframes step {
+    0%{
+        width:0ch;
+    }
+    40%{
+        width: 24ch;
+    }
+    60%{
+        width:24ch;
+    }
+    100%{
+        width:0ch;
+    }
+}
+
+@keyframes step2 {
+    0%{
+        width:0ch;
+    }
+    40%{
+        width: 24ch;
+    }
+    60%{
+        width:24ch;
+    }
+    100%{
+        width:0ch;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .textAnimate{
+        animation-name: step2 !important;
+    }
+}
