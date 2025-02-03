@@ -1,7 +1,7 @@
 import { Fragment, useRef, useState, useEffect } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { AiOutlineClose } from "react-icons/ai";
-import StartCAnvas from '../Canvas'
+// import StartCanvas from '../Canvas'
 import emailjs from '@emailjs/browser';
 
 interface UserData {
@@ -97,7 +97,7 @@ console.log(form,"form values")
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
               <Dialog.Panel className="relative transform rounded-lg bg-black text-left shadow-xl transition-all  w-full h-full overflow-y-auto">
-                <StartCAnvas/>
+                {/* <StartCanvas /> */}
                 <div className="text-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
                   <div className="flex items-center justify-center">
                     <div className="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left w-full flex flex-col items-center">
